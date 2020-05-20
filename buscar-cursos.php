@@ -1,3 +1,4 @@
+#!/usr/bin/env php
 <?php
 
     require 'vendor/autoload.php';
@@ -23,5 +24,5 @@
         //echo $i++ . PHP_EOL;
         //var_dump($curso);
         //echo $curso . PHP_EOL;
-        echo exibeMensagem($curso);
+        exibeMensagem($curso);
     }
